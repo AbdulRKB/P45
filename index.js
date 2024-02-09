@@ -57,10 +57,7 @@ if (cluster.isMaster) {
   // Define routes
   const routes = [
     { path: "/", file: "web.html" },
-    // { path: "/web", file: "web.html" },
-    // { path: "/apps", file: "apps.html" },
     { path: "/go", file: "go.html" },
-    // { path: "/settings", file: "settings.html" },
     { path: "/404", file: "404.html" },
   ];
 

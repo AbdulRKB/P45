@@ -1,6 +1,6 @@
 
   services:
   - type: web
-    name: P45
+    name: PFortyFive
     env: docker
     plan: free

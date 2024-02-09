@@ -1,5 +1,5 @@
 {
-  "name": "P45",
+  "name": "PFortyFive",
   "version": "1.0.0",
   "description": "P45",
   "type": "module",
@@ -10,11 +10,8 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [
-    "P45"
-  ],
-  "author": "CyberTitus",
-  "license": "CC",
+  "keywords": ["P45"],
+  "author": "ARKB",
   "dependencies": {
     "@titaniumnetwork-dev/ultraviolet": "^1.0.10",
     "@tomphttp/bare-server-node": "^1.2.5",

@@ -6,7 +6,12 @@ input.onkeypress = function(e){
       go(input.value)
       return false;
     }
-  }
+}
+
+if (window.location !== window.parent.location){
+    document.querySelector("#func").style.display = "none";
+}
+
 
 function blank3(){
     let inFrame

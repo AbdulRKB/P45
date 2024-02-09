@@ -6,20 +6,18 @@
 	<link rel="shortcut icon" href="assets/images/branding/favicon.png" type="image/x-icon">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 <body>
 	<main class="container">
 		<div class="brand">P45</div>
-		<input type="text" class="data" placeholder="Start Searching...">
+		<input type="text" class="data" placeholder="Search Google or type a URL" spellcheck="false" autocomplete="off">
 		<div class="apps">
-			<a class="app" onclick="go('https://youtube.com')">
-				<div class="app-name">YouTube</div>
-			</a>
 			<a class="app" onclick="go('https://google.com')">
 				<div class="app-name">Google</div>
 			</a>
-			<a class="app" onclick="go('https://chatgptproxy.me')">
-				<div class="app-name">GPT3</div>
+			<a class="app" onclick="go('https://youtube.com')">
+				<div class="app-name">YouTube</div>
 			</a>
 			<a class="app" onclick="go('https://quran.com/')">
 				<div class="app-name">Quran</div>
@@ -27,12 +25,9 @@
 			<a class="app" onclick="go('https://sunnah.com')">
 				<div class="app-name">Hadith</div>
 			</a>
-			<a class="app" onclick="go('https://5pillarsuk.com')">
-				<div class="app-name">5Pillars</div>
-			</a>
 		</div>
-		<a class="func" onclick="blank3()">
-			<div class="app-name">Blank</div>
+		<a class="func" id="func" onclick="blank3()">
+			<div class="app-name material-symbols-outlined">Iframe</div>
 		</a>
 	</main>
 <script src="./uv/uv.bundle.js"></script>
