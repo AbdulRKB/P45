@@ -14,6 +14,13 @@ $ cd P45
 $ npm install
 $ node index.js
 ```
+
+You can also use docker to run locally:
+```bash
+$ docker build -t pfortyfive:latest .
+$ docker run -p 8080:8080 pfortyfive:latest
+```
+
 `default port: 8080` 
 
 ## Functions
